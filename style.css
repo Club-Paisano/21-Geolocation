@@ -1,0 +1,35 @@
+:root {
+  --base1: #fbd685;
+  --base2: #63aebb;
+  --base3: #7a5d7e;
+  --base4: #312b30;
+}
+
+body {
+  background-color: var(--base3);
+  display: flex;
+
+  align-items: center;
+
+  height: 100vh;
+  color: var(--base1);
+
+}
+
+section {
+  flex: 1;
+  background-color: var(--base4);
+  border: solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+body > * {
+  height: 60%;
+}
+section > * {
+  margin-bottom: 10px;
+}
